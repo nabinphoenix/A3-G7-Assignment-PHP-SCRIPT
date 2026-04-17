@@ -1045,12 +1045,12 @@ sudo yum install git -y
 
 **Step B.2 - Clone your repository:**
 ```bash
-git clone https://github.com/nabinphoenix/A3-G7-Assignment-PHP-SCRIPT.git
+git clone https://github.com/nabinphoenix/PHP-Script.git
 ```
 
 **Step B.3 - Move files to the web directory:**
 ```bash
-sudo cp -r A3-G7-Assignment-PHP-SCRIPT/* /var/www/html/
+sudo cp -r PHP-Script/* /var/www/html/
 sudo chown -R apache:apache /var/www/html/
 sudo chmod -R 755 /var/www/html/
 ```
