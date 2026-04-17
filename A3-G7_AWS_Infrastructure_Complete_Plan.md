@@ -1550,7 +1550,7 @@ sudo su - ec2-user
 The EC2 instance needs the MySQL client to connect to RDS.
 
 ```bash
-sudo yum install -y mysql
+sudo dnf install -y mariadb105
 ```
 
 Expected output: "Complete!"
